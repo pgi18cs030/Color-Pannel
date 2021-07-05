@@ -1,15 +1,9 @@
+%%writefile app.py
 import streamlit as st 
-from PIL import Image,ImageOps
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import tensorflow as tf
-from keras.preprocessing import image
-import os
 import cv2
-from werkzeug.utils import secure_filename
+
 st.set_option('deprecation.showfileUploaderEncoding',False)
-from keras.models import load_model
 html_temp = """
    <div class="" style="background-color:blue;" >
    <div class="clearfix">           
