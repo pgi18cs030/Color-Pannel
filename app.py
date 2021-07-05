@@ -1,6 +1,7 @@
 import streamlit as st 
 import numpy as np
 import cv2
+from .cv2 import *
 
 st.set_option('deprecation.showfileUploaderEncoding',False)
 html_temp = """
